@@ -1,0 +1,6 @@
+[web_server]
+Add an ip here
+
+[web_server:vars]
+ansible_ssh_private_key_file=../newkey.pem
+ansible_user=ec2-user
